@@ -1,0 +1,305 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltaire:Online educatoin consultancy-Our Services</title>
+    
+    <link rel="Stylesheet" href="{% static 'CSS/services.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'img/logo-icon.jpg' %}"> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<div class="navigation">
+<!-- Start Navigation-1 -->
+  <nav class="navigation-1">
+    <div class="sign">
+      <ul>
+        <li id="title">Voltaire: Overseas Education Consultancy</li>
+        <li><input id="search-bar" type="text" placeholder="Search.." name="search">
+           <button id="search-button" type="submit"><ion-icon name="search-outline"></ion-icon></button></li>
+           <li style="margin-right: -10px;">| <a href="/register" target="_blank">Register</a></li>
+           <li><a href="/login" target="_blank">Log In</a></li>
+        </ul>
+    </div>
+  </nav>
+<!-- start Navigation 2-->
+  <nav class="navigation-2">
+    <a href="/home">
+      <img src="{% static 'img/logo5.jpg' %}" id="logo" ><br>
+    </a>
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/aboutus">About Us</a></li>
+      <li><a href="/services">Our Services</a></li>
+      <li><a href="/destination">Study Destinations</a></li>
+      <li><a href="/universities">Universities</a></li>
+      <li><a href="/scholarship">Scholarships</a></li>
+      <li><a href="/test">Test Prep</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Start GO to top -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+
+
+<!-- Startheader-photo -->
+<div class="slideshow-container" style="text-align: center;">
+  <div class="mySlides">
+    <img id="header-photo" src="{% static 'img/Picture1.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture2.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture3.jpg' %}">
+  </div>
+
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture4.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture5.jpg' %}">
+  </div>
+</div><br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+</div><br>
+    
+
+<!-- The Introduction -->
+<div class="content">
+      <h2>Our Services</h2>
+      <div class="intro">
+        <p>We can support your application for admission to a range of undergraduate degree courses at universities around the world. The options really are endless. We have a wealth of knowledge gained from our work with universities across the globe. Our support provides the insight and practical tools needed to navigate the application process from beginning to end.<br><br>We can help you to consider which countries would be most suited to you. Both from a personal and academic perspective. With our expertise, you can be confident of submitting the very best application.</p>
+      </div>
+        <h3 style="margin: 30px 0px;">An overview of our area of expertise</h3>
+        <div class="list">
+          <ul class="left" style="float:left">
+            <li>Career Counselling</Li> 
+            <li>Test Prep</li>
+            <li>Popular Coursed</li>
+            <li>Visa Assistance</li>
+          </ul>
+          <ul class="right" style="float:right">
+            <li>Travelling Assistance</li>
+            <li>Assistance in application process</li>
+            <li>Admission Guidance</li>
+            <li>Financial Aid</li>
+          </ul>
+      </div>
+
+<!-- The Process -->
+<!-- Application -->
+<div class="process-row">
+  <h3 style="margin:50px 0px;">The process</h3>
+    <p class="head"><img src="{% static 'img/mail-open.svg' %}" style="height: 25px;padding-right:5px;">Application</p>
+  <div class="process-column">
+    <p>Apply hassle-free to the best universities to study abroad. Our expert application team will handle the process for you.</p>
+  </div>
+  <div class="process-column">
+    <img src="{% static 'img/application.jpg' %}" alt="application" style="height: 110px; margin-left: 130px;">
+  </div>
+</div>
+<!-- Preparation -->
+<div class="process-row">
+  <p class="head"><img src="{% static 'img/book.svg' %}" style="height: 25px;padding-right:5px;">Preparation</p>
+  <div class="process-column">
+    <p>Elevated learning experience to score well in eligibility examx like IELTs along with interview preparation.</p>
+  </div>
+    <div class="process-column">
+      <img src="{% static 'img/preparation.jpg' %}" alt="preparation" style="height: 110px; margin-left: 130px;">
+    </div>
+  </div>
+<!--  Affordability-->
+<div class="process-row">
+  <p class="head"><img src="{% static 'img/wallet.svg' %}" style="height: 25px;padding-right:5px;">Affordability</p>
+  <div class="process-column">
+    <p>The most affordable overseas education consultants for your study abroad preparation.</p>
+  </div>
+    <div class="process-column">
+      <img src="{% static 'img/affordability.jpg' %}" alt="affordability" style="height: 110px; margin-left: 130px;">
+    </div>
+  </div>
+<!-- Immigration -->
+<div class="process-row">
+  <p class="head"><img src="{% static 'img/airplane.svg' %}" style="height: 25px;padding-right:5px;">Immigration</p>
+  <div class="process-column">
+    <p>Our expert counsellors guide you through the entire process, from visa application to part-time jobs abroad.</p>
+  </div>
+    <div class="process-column">
+      <img src="{% static 'img/immigration.jpg' %}" alt="immigration" style="height: 110px; margin-left: 130px;">
+    </div>
+</div>
+
+<!-- Our Services -->
+<div class="services-row">
+  <h3 style="margin:150px 0px 50px 0px;">Our services</h3>
+  <p class="head">Consultation</p>
+  <div class="services-column">
+    <img src="{% static 'img/consultation.jpg' %}" alt="consultation" style="height: 70px;margin-right: 30px;">
+  </div>
+  <div class="services-column" style="width: 70%;">
+    <p>We provide free consultation to students who wish to study abroad. Our expert counsellors will help you piclk the right direction and will be with you every step of the way.</p>
+  </div>
+</div>
+<div class="services-row">
+  <p class="head">Profile Assessment</p>
+  <div class="services-column">
+    <img src="{% static 'img/assessment.jpg' %}" alt="assessment" style="height: 70px;margin-right: 30px;">
+  </div>
+  <div class="services-column" style="width: 70%;">
+    <p>Our expert team will evaluate your profile tthroughly and pick the best courses and universities that you are eligible for. We will also help you build a profile required for your dream university based on your individual interests.</p>
+  </div>
+</div>
+<div class="services-row">
+  <p class="head">University Applications</p>
+  <div class="services-column">
+    <img src="{% static 'img/university_application.jpg' %}" alt="university Applications" style="height: 70px;margin-right: 30px;">
+  </div>
+  <div class="services-column" style="width: 70%;">
+    <p>The Applications team will ensure that your university applications are impeccable and made at the right time.</p>
+  </div>
+</div>
+<div class="services-row">
+  <p class="head">Test Preparation</p>
+  <div class="services-column">
+    <img src="{% static 'img/test_preparation.jpg' %}" alt="Test Preparation" style="height: 70px;margin-right: 30px;">
+  </div>
+  <div class="services-column" style="width: 70%;">
+    <p>We strive to prepare you for the best education the world has to offer. Therefore, our brilliant teachers and mentors will coach you to ensure a high score in entrance tests.</p>
+  </div>
+</div>
+</div>
+</div>
+<div class="contact">
+<p>Want to book an Appointment?<a href="/appointment">Click Here</a>.</p>
+</div>
+
+
+<!-- start Footer -->
+<footer>
+  <div class="main-footer">
+  <!-- footerup-1 -->
+    <div class="footerup-1">
+      <h4 class="title">Voltaire</h4>
+      <P><strong>Voltaire</strong> is a study abroad education consultancy with an online platform that allows students to apply to universities. We specializes in course advice, IELTS prep, pre-departure support, visa, accommodation, and health cover for students.<br><br> To avail of our services, you can register on our website. You will be assigned a counselor to help you through your study abroad journey.</P>
+    </div>
+  <!-- footerup-2 -->
+    <div class="footerup-2">
+      <h4 class="title">Quick Links</h4>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/aboutus">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/appointment">Appoinments Booking</a></li>
+          <li><a href="/destination">Study Destinations</a></li>
+          <li><a href="/universities">Universities</a></li>
+          <li><a href="/scholarship">Scholarships</a></li>
+        </ul>
+    </div>
+  <!-- footerup-3 -->
+  <div class="footerup-3">
+    <h4 class="title">CONTACT US</h4>
+      <p><strong>Voltaire Education Consultancy,</strong><br>
+        Commercial Block-1, Zone 6,<br>
+        Golf Course Road,<br>
+        DLF City Phase-V,<br>
+        Gurugram - 122009<br>
+        Haryana, India<br>
+        Phone: (+91) 9866403266<br>
+        <a href="https://mail.google.com/" target="_blank">info@voltaire.in</a></p>
+  </div>
+  <!-- footerup-4 -->
+    <div class="footerup-4">
+      <h4 class="title">DON'T MISS OUT ON THE LATEST</h4>
+      <form action="#" method="post">
+        {% csrf_token %}
+        <input id="test" type="email" placeholder="Your email address..." required>
+        &nbsp;
+        <button id="subscribe" onclick = "execute_function()" type="submit">SUBSCRIBE!</button>
+      </form>
+      <ul>
+        <li><a href="https://www.facebook.com/VoltBiz" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/voltaquino?lang=en" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/voltaireconsultants/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/company/voltaireconsultants/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>     
+      </ul>
+    </div>
+  </div></footer><hr>
+<!-- Footerdown -->
+  <div class="footerdown"> 
+    <p>Copyright © 2023 Voltaire Overseas Consultancy. All rights reserved. Published by Alpha Brand Media.</p>
+  </div>
+</footer>
+    
+    
+    
+    <script>
+    
+    
+    //  Start header photo
+    let slideIndex = 0;
+    showSlides();
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 4 seconds
+    }
+    
+    
+    
+    // start Subscribe button
+    function execute_function(){
+      if(document.getElementById("test").value.trim() != "") alert("Your Email has been registered!!!")
+      else alert("Error: Please enter email")
+      }
+    
+    
+    
+    // start scroll to top button
+    let mybutton = document.getElementById("myBtn");
+      // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+          
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+        }
+    }   // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      }
+    
+    
+    
+    </script>      
+
+</body>
+</html>

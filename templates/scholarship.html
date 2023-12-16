@@ -1,0 +1,313 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltaire:Online educatoin consultancy-Scholarships</title>
+    
+    <link rel="Stylesheet" href="{% static 'CSS/scholarship.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'img/logo-icon.jpg' %}"> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<div class="navigation">
+<!-- Start Navigation-1 -->
+  <nav class="navigation-1">
+    <div class="sign">
+      <ul>
+        <li id="title">Voltaire: Overseas Education Consultancy</li>
+        <li><input id="search-bar" type="text" placeholder="Search.." name="search">
+           <button id="search-button" type="submit"><ion-icon name="search-outline"></ion-icon></button></li>
+           <li style="margin-right: -10px;">| <a href="/register" target="_blank">Register</a></li>
+           <li><a href="/login" target="_blank">Log In</a></li>
+        </ul>
+    </div>
+  </nav>
+<!-- start Navigation 2-->
+  <nav class="navigation-2">
+    <a href="/home">
+      <img src="{% static 'img/logo5.jpg' %}" id="logo" ><br>
+    </a>
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/aboutus">About Us</a></li>
+      <li><a href="/services">Our Services</a></li>
+      <li><a href="/destination">Study Destinations</a></li>
+      <li><a href="/universities">Universities</a></li>
+      <li><a href="/scholarship">Scholarships</a></li>
+      <li><a href="/test">Test Prep</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Start GO to top -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+
+
+<!-- Startheader-photo -->
+<div class="slideshow-container" style="text-align: center;">
+  <div class="mySlides">
+    <img id="header-photo" src="{% static 'img/Picture5.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture1.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture2.jpg' %}">
+  </div>
+
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture3.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture4.jpg' %}">
+  </div>
+</div><br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+</div><br>
+
+
+
+
+
+<!-- Start Body -->
+<div class="content">
+    <h2>Scholarships</h2>
+    <h3>What is a scholarship?</h3>
+    <div class="intro">
+        <p>A scholarship is a form of financial aid awarded to students for further education. Generally, scholarships are awarded based on a set of criteria such as academic merit, diversity and inclusion, athletic skill, and financial need. Scholarship criteria usually reflect the values and goals of the donor of the award, and while scholarship recipients are not required to repay scholarships, the awards may require that the recipient continue to meet certain requirements during their period of support, such maintaining a minimum grade point average or engaging in a certain activity.</p>
+    <h3>Types of Scholarships</h3>    
+        <P>Searching through all the international scholarships out there can be a pretty mammoth task. But we’ve tried to make this easier by creating lists of scholarships to study abroad, grouped into various categories.<br><br> These include lists of international scholarships to study abroad in a particular country, scholarships to study a particular subject, and scholarships targeting particular groups of students. Have a browse of the lists below to see which categories apply to you.</P>
+    <h4>Merit-based</h4>
+        <p>These awards are based on a student's academic, artistic, athletic, or other abilities, and often a factor in an applicant's extracurricular activities and community service record. Most such merit-based scholarships are paid directly by the institution the student attends, rather than issued directly to the student.</p>
+    <h4>Need-based</h4>
+        <p>Some private need-based awards are confusingly called scholarships, and require the results of a FAFSA (the family's expected family contribution). However, scholarships are often merit-based, while grants tend to be need-based.</p>
+    <h4>Student-specific</h4>
+        <p>These are scholarships for which applicants must initially qualify based upon gender, race, religion, family, and medical history, or many other student-specific factors. Minority scholarships are the most common awards in this category. The Gates Millennium Scholars Program is another minority scholarship funded by Bill and Melinda Gates for excellent African American, American Indian, Asian Pacific Islander American, and Latino students who enrol in college.</p>
+    <h4>Career-specific</h4>
+        <p>These are scholarships a college or university awards to students who plan to pursue a specific field of study. Often, the most generous awards go to students who pursue careers in high-need areas, such as education or nursing. Many schools in the United States give future nurses full scholarships to enter the field, especially if the student intends to work in a high-need community.</p>
+    <h4>College-specific</h4>
+        <p>College-specific scholarships are offered by individual colleges and universities to highly qualified applicants. These scholarships are given based on academic and personal achievement. Some scholarships have a "bond" requirement. Recipients may be required to work for a particular employer for a specified period of time or to work in rural or remote areas; otherwise, they may be required to repay the value of the support they received from the scholarship.</p>
+    <h4>Athletic</h4>
+        <p>Awarded to students with exceptional skill in a sport. Often this is so that the student will be available to attend the school or college and play the sport on their team, although in some countries, government funded sports scholarships are available, allowing scholarship holders to train for international representation.</p>
+    <h4>Brand</h4>
+        <p>These scholarships are sponsored by a corporation that is trying to gain attention to their brand, or a cause. Sometimes these scholarships are referred to as branded scholarships. The Miss America beauty pageant is a famous example of a brand scholarship.</p>
+    <h4>Creative contest</h4>
+        <p>These scholarships are awarded to students based on a creative submission. Contest scholarships are also called mini project-based scholarships, where students can submit entries based on unique and innovative ideas.</p><br><br>
+    
+        <div class="links">
+    <h4>Region-specific scholarships :</h4><br>
+    <ul>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-study-asia" target="_blank">Scholarships to study in Asia</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-brics-countries" target="_blank">Scholarships to study in the BRICS countries</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-study-eastern-europe" target="_blank">Scholarships to study in Eastern Europe</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/scholarships-study-europe" target="_blank">Scholarships to study in Europe</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-europes-nordic-countries" target="_blank">Scholarships to study in Europe's Nordic countries</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-study-latin-america" target="_blank">Scholarships to study in Latin America</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-study-middle-east" target="_blank">Scholarships to study in Middle East</a></li>
+    </ul>
+    <h4>Country-specific scholarships :</h4><br>
+    <ul>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/international-scholarships-study-australia" target="_blank">Scholarships to study in Australia</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-canada" target="_blank">Scholarships to study in Canada</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/scholarships-study-germany" target="_blank">Scholarships to study in Germany </a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-new-zealand" target="_blank">Scholarships to study in New Zealand</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-study-russia" target="_blank">Scholarships to study in Russia</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/scholarships-study-uk" target="_blank">Scholarships to study in the UK</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-abroad-worlds-best-student-cities" target="_blank">Scholarships to study abroad in the world's best student cities </a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/international-scholarships-study-us" target="_blank">Scholarships to study in the US </a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/unusual-scholarships-us" target="_blank">Unusual scholarships in the US</a></li>
+    </ul>
+
+    <h4>Subject-specific scholarships :</h4><br>
+    <ul>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/agriculture-scholarships-around-world" target="_blank">Agriculture Scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/architecture-scholarships-around-world" target="_blank">Architecture scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/art-scholarships-around-world" target="_blank">Art Scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/business-entrepreneurship-scholarships-around-world" target="_blank">Business and entrepreneurship scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/computer-science-scholarships" target="_blank">Computer science scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/creative-writing-scholarships" target="_blank">Creative writing scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/university-rankings-articles/university-subject-rankings/scholarships-top-dentistry-schools-2019" target="_blank">Dentistry scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/international-scholarships-engineering-students" target="_blank">Engineering scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/law-school-scholarships-around-world" target="_blank">Law school scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/leadership-scholarships-around-world" target="_blank">Leadership scholarshipsLeadership scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/medical-scholarships-around-world" target="_blank">Medical scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/nursing-scholarships-around-world" target="_blank">Nursing scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/university-rankings-articles/university-subject-rankings/scholarships-study-10-top-performing-arts-schools-2018" target="_blank">Performing arts scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/university-rankings-articles/university-subject-rankings/scholarships-study-10-top-universities-politics-2019" target="_blank">Politics scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/psychology-scholarships-around-world" target="_blank">Psychology scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/veterinary-scholarships-around-world" target="_blank">Veterinary scholarships</a></li>
+    </ul>
+
+    <h4>Student-specific scholarships :</h4><br>
+    <ul>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-graduate-scholarships-canadian-students" target="_blank">Graduate scholarships for Canadian students</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/lgbt-scholarships-around-world" target="_blank">LGBT scholarships</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-african-students" target="_blank">Scholarships for African students</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-brazilian-students" target="_blank">Scholarships for Brazilian students</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-chinese-students" target="_blank">Scholarships for Chinese students </a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/scholarships-hispanic-students" target="_blank">Scholarships for Hispanic students</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/international-scholarships-indian-students" target="_blank">Scholarships for Indian students </a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-indian-undergraduate-students" target="_blank">Scholarships for Indian undergraduate students</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/scholarships-minority-women" target="_blank">Scholarships for minority women</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/scholarships-study-online" target="_blank">Scholarships for online students</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/scholarships-pakistani-students" target="_blank">Scholarships for Pakistani students</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/international-scholarships-students-developing-countries" target="_blank">Scholarships for students from developing countries</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/scholarships-students-disabilities" target="_blank">Scholarships for students with disabilities</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/international-scholarships-uk-students" target="_blank">Scholarships for UK students</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/international-scholarships-women" target="_blank">Scholarships for women</a></li>
+        <li><a href="https://www.topuniversities.com/student-info/scholarships/scholarships-women-male-dominated-industries" target="_blank">Scholarships for women in male-dominated industries</a></li>
+    </ul>
+    <h4>Other scholarships:</h4><br>
+    <ul>
+        <li><a href="https://www.topuniversities.com/student-info/scholarship-advice/how-get-scholarship-celebrity" target="_blank">Scholarships from celebrities</a></li>
+        <!-- <li><a href="" target="_blank">Chevening Scholarship: Foreign & Commonwealth Office (UK)</a></li>
+        <li><a href="" target="_blank">China Scholarship Council Scholarship: Government of China</a></li>
+        <li><a href="" target="_blank">Commonwealth Scholarship: Commonwealth governments</a></li>
+        <li><a href="" target="_blank">Coca-Cola Scholarship: the Coca-Cola Company</a></li>
+        <li><a href="" target="_blank">Endeavour Awards: Government of Australia</a></li>
+        <li><a href="" target="_blank">Erasmus Mundus: European Union</a></li>
+        <li><a href="" target="_blank">Fulbright Scholarship</a></li>
+        <li><a href="" target="_blank">Gates Cambridge Scholarship: Bill & Melinda Gates Foundation; University of Cambridge</a></li>
+        <li><a href="" target="_blank">Jardine Scholarship: Jardine Matheson; Universities of Oxford and Cambridge</a></li>
+        <li><a href="" target="_blank">Marshall Scholarship: UK universities</a></li>
+        <li><a href="" target="_blank">Mitchell Scholarship: US-Ireland Alliance</a></li>
+        <li><a href="" target="_blank">Morehead-Cain Scholarship: University of North Carolina</a></li>
+        <li><a href="" target="_blank">Foundation Scholarship: Trinity College Dublin</a></li>
+        <li><a href="" target="_blank">Rhodes Scholarship: University of Oxford</a></li>
+        <li><a href="" target="_blank">Schwarzman Scholars: Tsinghua University</a></li> -->
+    </ul>
+    </div>
+    </div>
+</div>
+
+
+
+
+<!-- start Footer -->
+<footer>
+  <div class="main-footer">
+  <!-- footerup-1 -->
+    <div class="footerup-1">
+      <h4 class="title">Voltaire</h4>
+      <P><strong>Voltaire</strong> is a study abroad education consultancy with an online platform that allows students to apply to universities. We specializes in course advice, IELTS prep, pre-departure support, visa, accommodation, and health cover for students.<br><br> To avail of our services, you can register on our website. You will be assigned a counselor to help you through your study abroad journey.</P>
+    </div>
+  <!-- footerup-2 -->
+    <div class="footerup-2">
+      <h4 class="title">Quick Links</h4>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/aboutus">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/appointment">Appoinments Booking</a></li>
+          <li><a href="/destination">Study Destinations</a></li>
+          <li><a href="/universities">Universities</a></li>
+          <li><a href="/scholarship">Scholarships</a></li>
+        </ul>
+    </div>
+  <!-- footerup-3 -->
+  <div class="footerup-3">
+    <h4 class="title">CONTACT US</h4>
+      <p><strong>Voltaire Education Consultancy,</strong><br>
+        Commercial Block-1, Zone 6,<br>
+        Golf Course Road,<br>
+        DLF City Phase-V,<br>
+        Gurugram - 122009<br>
+        Haryana, India<br>
+        Phone: (+91) 9866403266<br>
+        <a href="https://mail.google.com/" target="_blank">info@voltaire.in</a></p>
+  </div>
+  <!-- footerup-4 -->
+    <div class="footerup-4">
+      <h4 class="title">DON'T MISS OUT ON THE LATEST</h4>
+      <form action="#" method="post">
+        {% csrf_token %}
+        <input id="test" type="email" placeholder="Your email address..." required>
+        &nbsp;
+        <button id="subscribe" onclick = "execute_function()" type="submit">SUBSCRIBE!</button>
+      </form>
+      <ul>
+        <li><a href="https://www.facebook.com/VoltBiz" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/voltaquino?lang=en" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/voltaireconsultants/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/company/voltaireconsultants/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>     
+      </ul>
+    </div>
+  </div></footer><hr>
+<!-- Footerdown -->
+  <div class="footerdown"> 
+    <p>Copyright © 2023 Voltaire Overseas Consultancy. All rights reserved. Published by Alpha Brand Media.</p>
+  </div>
+</footer>
+
+        
+        
+<script>
+
+
+        //  Start header photo
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+        
+        
+        
+        // start Subscribe button
+        function execute_function(){
+          if(document.getElementById("test").value.trim() != "") alert("Your Email has been registered!!!")
+          else alert("Error: Please enter email")
+          }
+        
+        
+        
+        // start scroll to top button
+        let mybutton = document.getElementById("myBtn");
+          // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+              
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+            }
+        }   // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+          }
+        
+        
+        
+        </script>
+
+
+</body>
+</html>

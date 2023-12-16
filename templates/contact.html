@@ -1,0 +1,223 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltaire:Online educatoin consultancy-Contact Us</title>
+    
+    <link rel="Stylesheet" href="{% static 'CSS/contact.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'img/logo-icon.jpg' %}"> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<div class="navigation">
+<!-- Start Navigation-1 -->
+  <nav class="navigation-1">
+    <div class="sign">
+      <ul>
+        <li id="title">Voltaire: Overseas Education Consultancy</li>
+        <li><input id="search-bar" type="text" placeholder="Search.." name="search">
+           <button id="search-button" type="submit"><ion-icon name="search-outline"></ion-icon></button></li>
+           <li style="margin-right: -10px;">| <a href="/register" target="_blank">Register</a></li>
+           <li><a href="/login" target="_blank">Log In</a></li>
+        </ul>
+    </div>
+  </nav>
+<!-- start Navigation 2-->
+  <nav class="navigation-2">
+    <a href="/home">
+      <img src="{% static 'img/logo5.jpg' %}" id="logo" ><br>
+    </a>
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/aboutus">About Us</a></li>
+      <li><a href="/services">Our Services</a></li>
+      <li><a href="/destination">Study Destinations</a></li>
+      <li><a href="/universities">Universities</a></li>
+      <li><a href="/scholarship">Scholarships</a></li>
+      <li><a href="/test">Test Prep</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Start GO to top -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+
+
+        <div class="container">
+            <div style="text-align:center">
+              <h1>Contact Us</h1>
+            </div>
+            <div class="row">
+              <div class="column">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36795767.72056224!2d-34.1571448!3d55.743988300000034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b3c420352c7%3A0xa15abafadccf519e!2sVOLTAIRE%20CONSULTING!5e0!3m2!1sen!2sin!4v1679078912089!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+              <div class="column">
+                <form method="POST" action="/contact">
+                  {% csrf_token %}
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name.."required>
+
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name.."required>
+
+                  <label for="number">Number</label>
+                  <input type="tel" id="number" name="number" placeholder="Your Number.."required>
+
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="Your Email Address.."required>
+
+                  <label for="country">Country</label>
+                  <select id="country" name="country"required>
+                    <option value="">Other</option>
+                    <option value="">United Kingdom</option>
+                    <option value="">Italy</option>
+                    <option value="">Germany</option>
+                    <option value="">Spain</option>
+                    <option value="">Australia</option>
+                    <option value="">Canada</option>
+                    <option value="">France</option>
+                    <option value="">Norway</option>
+                    <option value="">Australia</option>
+                    <option value="">Ireland</option>
+                    <option value="">Singapore</option>
+                  </select>
+
+                  <label for="">Add Comment</label>
+                  <textarea id="comment" name="comment" placeholder="Write something.." style="height:170px"></textarea>
+
+                  <button id="regis" type="submit" value="">Submit</button>        
+
+                  </form>
+              </div>
+            </div>
+          </div>
+          
+
+
+
+     
+<!-- start Footer -->
+<footer>
+  <div class="main-footer">
+  <!-- footerup-1 -->
+    <div class="footerup-1">
+      <h4 class="title">Voltaire</h4>
+      <P><strong>Voltaire</strong> is a study abroad education consultancy with an online platform that allows students to apply to universities. We specializes in course advice, IELTS prep, pre-departure support, visa, accommodation, and health cover for students.<br><br> To avail of our services, you can register on our website. You will be assigned a counselor to help you through your study abroad journey.</P>
+    </div>
+  <!-- footerup-2 -->
+    <div class="footerup-2">
+      <h4 class="title">Quick Links</h4>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/aboutus">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/appointment">Appoinments Booking</a></li>
+          <li><a href="/destination">Study Destinations</a></li>
+          <li><a href="/universities">Universities</a></li>
+          <li><a href="/scholarship">Scholarships</a></li>
+        </ul>
+    </div>
+  <!-- footerup-3 -->
+  <div class="footerup-3">
+    <h4 class="title">CONTACT US</h4>
+      <p><strong>Voltaire Education Consultancy,</strong><br>
+        Commercial Block-1, Zone 6,<br>
+        Golf Course Road,<br>
+        DLF City Phase-V,<br>
+        Gurugram - 122009<br>
+        Haryana, India<br>
+        Phone: (+91) 9866403266<br>
+        <a href="https://mail.google.com/" target="_blank">info@voltaire.in</a></p>
+  </div>
+  <!-- footerup-4 -->
+    <div class="footerup-4">
+      <h4 class="title">DON'T MISS OUT ON THE LATEST</h4>
+      <form action="#" method="post">
+        {% csrf_token %}
+        <input id="test" type="email" placeholder="Your email address..." required>
+        &nbsp;
+        <button id="subscribe" onclick = "execute_function()" type="submit">SUBSCRIBE!</button>
+      </form>
+      <ul>
+        <li><a href="https://www.facebook.com/VoltBiz" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/voltaquino?lang=en" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/voltaireconsultants/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/company/voltaireconsultants/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>     
+      </ul>
+    </div>
+  </div></footer><hr>
+<!-- Footerdown -->
+  <div class="footerdown"> 
+    <p>Copyright © 2023 Voltaire Overseas Consultancy. All rights reserved. Published by Alpha Brand Media.</p>
+  </div>
+</footer>
+  
+  
+  
+  <script>
+  
+  
+  //  Start header photo
+  let slideIndex = 0;
+  showSlides();
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 4 seconds
+  }
+  
+  
+  
+  // start Subscribe button
+  function execute_function(){
+    if(document.getElementById("test").value.trim() != "") alert("Your Email has been registered!!!")
+    else alert("Error: Please enter email")
+    }
+  
+  
+  
+  // start scroll to top button
+  let mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+        
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+      }
+  }   // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+  
+  
+
+    function submit_response() {
+    alert("Are you sure you want to continue?")
+  }
+  
+  </script>
+
+
+
+
+</body>
+</html>

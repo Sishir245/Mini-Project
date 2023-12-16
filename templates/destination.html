@@ -1,0 +1,373 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltaire:Online educatoin consultancy-Study Destinations</title>
+    
+    <link rel="Stylesheet" href="{% static 'CSS/destination.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'img/logo-icon.jpg' %}"> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<div class="navigation">
+<!-- Start Navigation-1 -->
+  <nav class="navigation-1">
+    <div class="sign">
+      <ul>
+        <li id="title">Voltaire: Overseas Education Consultancy</li>
+        <li><input id="search-bar" type="text" placeholder="Search.." name="search">
+           <button id="search-button" type="submit"><ion-icon name="search-outline"></ion-icon></button></li>
+           <li style="margin-right: -10px;">| <a href="/register" target="_blank">Register</a></li>
+           <li><a href="/login" target="_blank">Log In</a></li>
+        </ul>
+    </div>
+  </nav>
+<!-- start Navigation 2-->
+  <nav class="navigation-2">
+    <a href="/home">
+      <img src="{% static 'img/logo5.jpg' %}" id="logo" ><br>
+    </a>
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/aboutus">About Us</a></li>
+      <li><a href="/services">Our Services</a></li>
+      <li><a href="/destination">Study Destinations</a></li>
+      <li><a href="/universities">Universities</a></li>
+      <li><a href="/scholarship">Scholarships</a></li>
+      <li><a href="/test">Test Prep</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Start GO to top -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+
+
+<!-- Startheader-photo -->
+<div class="slideshow-container" style="text-align: center;">
+  <div class="mySlides">
+    <img id="header-photo" src="{% static 'img/Picture3.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture4.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture5.jpg' %}">
+  </div>
+
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture1.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture2.jpg' %}">
+  </div>
+</div><br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+</div><br>  
+
+
+     <!-- Start Body -->
+<div class="content">
+        <h2>STUDY DESTINATIONS</h2>
+        <h3>Where to Study? Choosing a Study Destination</h3>
+   <div class="intro">
+       <p >There are many factors to be considered when choosing your study destination.  Picking your subject area can be relatively straight forward, consider selecting the area you are interested in, or have prior experience in.  But how do you decide where to study?</p>
+       <br><p>You should think about the following questions when deciding where to study:</p>
+       <ul>
+           <li>What language do you want to study in?</li>
+           <li>What style of education are you looking for?</li>
+           <li>How difficult will it be to get a visa?</li>
+           <li>What are the University entry requirements?</li>
+           <li>Which destinations are the most affordable?</li>
+           <li>Are there opportunities for employment after study?</li>
+           <li>Will culture shock be a problem?</li>
+       </ul>
+       <h4>Study language</h4>
+       <p>Possibly the most important factor in choosing where to study is the language in which you wish to complete your studies. Deciding on the language will help you narrow your choice of available study destinations.<br><br>If you are choosing an English speaking destination you will probably be interested in the top 3. USA, UK, and Australia respectively have the highest number of international students. The UK and USA have an excellent reputation, their institutions account for the top 10 universities in the THE rankings.<br><br>In addition to the top 3, Germany and France are popular destinations for International students. Malaysia, China and Singapore are more recent destinations that are actively pursuing International students and offer study programmes in English.</p>
+       <h4>Style of Education</h4>
+       <p>The teaching style you hope to receive is also an important factor in deciding where to study.  Do you prefer to be left to your own devices and learn independently?  If so a UK education may be more suitable. However, if you prefer more direction and guidance you may opt for an education in the USA. If you would like the best of both worlds Australia may be just the place.<br><br>Rory, a student who spent a year at California State University, puts it like this; “In the US it’s compulsory to go to all your classes and read every inch of the set texts, but not much outside of this. In the UK it is almost the opposite. Undergraduates are pointed in the right direction by their professors, but then left to their own devices to find the right resources and produce their own analysis.”</p>
+       <h4>Student Visa</h4>
+       <p>Once you have narrowed down your options based on the language and style of the education you want it’s important to consider the factors outside of your control. One of these factors is student visas. To put it bluntly you can’t leave home without one!<br><br>A student visa is mandatory for gaining entry to your chosen destination.<br><br>The application process can vary depending on your chosen destination, your citizenship and your intended course of study.</p>
+       <h4>University Entry Requirements</h4>
+       <p>The other factor outside of your control is your acceptance into your chosen university. Throughout the application process, you will encounter a lot of competition to gain entry into the prestigious institutions.<br><br>If you are seeking an English language education make sure you research the English language requirements. You will be expected to sit for language tests such as IELTS and TOEFL.</p>
+       <h4>Study Costs</h4>
+       <p>For many students the decision of where to study will simply come down to costs. An overseas education can vary greatly in cost. Not only can the cost vary between country, but also between regions in the same country.<br><br>You can research average costs by country on StudyLink’s directory pages.<br><br>It is important to remember that tuition fees are only one of the costs involved with overseas study. You must also consider accommodation, travel, cost of living and other costs like health services and insurance.<br><br>Some destinations such as the UK and Canada offer free health services, so you should research and allow for factors such as these in your calculations.</p>
+       <h4>Employment opportunities</h4>
+       <p>An overseas education can help you find postgraduate work around the world. An education from the US and the UK is highly regarded and will no doubt improve your chances of finding work.<br><br>However, finding work in your chosen destination following your studies can be more difficult. Some countries such as the US have heavy restrictions on work visas.<br><br>The UK have made it easier for international students to stay on and work following their studies with the Tier 1 Post Study Work Visa. This allows postgraduates to stay in the UK for up to 2 years after their study. However, the new UK government are looking to abolish this visa so it is important that you research what visa, if any, you can get following your education in your chosen destination.</p>
+       <h4>Culture Shock</h4>
+       <p>Often the most overlooked factor when deciding where to study is culture shock. While culture shock should not put you off pursuing an overseas education it is important that you prepare for it, especially if your chosen destination’s culture varies greatly from your home culture.<br><br>Experiencing different cultures is one of the most exciting aspects of an overseas education. This experience can be both personally and professionally rewarding.<br><br> Good luck on choosing your study destination.</p>
+   </div><br><br>
+        
+   
+<div class="country-flag">
+  <div class="flag">
+    <img src="{% static 'img/flag4.jpg' %}" alt="america" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag2.jpg' %}" alt="australlia" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag3.jpg' %}" alt="united kingdom" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag5.jpg' %}" alt="canada" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag11.jpg' %}" alt="ireland" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag7.jpg' %}" alt="spain" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag1.jpg' %}" alt="germany" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag9.jpg' %}" alt="singapore" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag10.jpg' %}" alt="india" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag12.jpg' %}" alt="italy" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag8.jpg' %}" alt="norway" style="width:100%">
+  </div>
+  <div class="flag">
+    <img src="{% static 'img/flag6.jpg' %}" alt="france" style="width:100%">
+  </div>
+  
+  
+</div>
+<h1 class="intro-2">Choosing a Country as an International Student</h1><br>
+   <div class="intro">
+   <p>Choosing where to study abroad can be as challenging as choosing the university and course you wish to study. There are a lot of factors to consider when deciding on a destination such as the costs of living, tuition fees, visa application processes, the climate and the country’s culture.<br><br>Below you will find detailed guides for every popular study destination and country containing information about the country, the living and study costs as an international student, study visas, languages, information about each city and comprehensive list of universities and colleges.</p><br>
+   </div>
+   <h1 class="intro-2">Popular Countries for Studying Abroad</h1><br><br>
+   <button class="accordion">Why study in UK?</button>
+   <div class="panel">
+   <p>UK offers international students an academic experience that is very hard to beat. From world-recognised universities to innovative approach to teaching and the leading minds who deliver it, the UK has what you need to reach your potential. By studying in the UK, you’ll be immersing yourself in centuries of high-quality academia. With a mix of cosmopolitan cities and countryside villages, the UK is full of 
+       historical landmarks, famous music festivals, widely varied cuisine, and amazing events to keep you entertained throughout the duration of your studies.<br>
+       The UK has been the preferred choice for some of the most important minds in history. One in four world leaders has studied in the UK, so if you’re dreaming of achieving big things, you can be sure you’re in the right place in the UK. The UK Is the Gateway to the Rest of Europe. If you want to travel to Europe, the UK is the place to be. In the United Kingdom alone, you can travel to Scotland, Wales, and Northern Ireland and learn about each country’s different backgrounds and lifestyles.
+       UK graduates are among the most employable in the world, with three UK universities ranked in the global top 20 for employability, and 14 ranked in the top 100. The UK’s Graduate Route allows international students to apply to stay in the UK and work, or look for work, upon graduation. International students who have successfully completed an undergraduate or master’s degree have the option to apply to stay in the UK for up to two years. PhD graduates can apply to stay for up to three years.
+   </p>
+   </div>
+   <button class="accordion">Why study in USA?</button>
+   <div class="panel">
+   <p>USA has always been a country of attraction for higher education among international students. The USA is not only popular for its economic power but also academic power. Its education system has always been the best in the world. The USA has been enhanced by literally every culture of the world. This creates diversity in the American atmosphere which will give you a unique experience.<br>
+       The USA is a leading country in many areas of technology and research.<br> While studying here, you will get the opportunity of advanced technology and research. The country has devoted the largest amount of human and financial resources to the research and development department. Not only the government but also the universities and private firms in the USA spend a large amount on research projects. USA universities offer the broadest range of courses to international students. Be it Bachelor’s, masters, or PhD degrees. No matter which subjects you want to study, you will have an option of a wide variety of programs.<br>
+       Most of the universities provide scholarships, stipends, loans for higher education to students to help them pursue their education easily in the USA. They provide financial support based on the merit rather than the financial need. So you can gain high-quality education in the USA with the help of these financial aids. Most of the International USA universities have a variety of student clubs and organizations to match the wide range of student interests. You will get an opportunity to experience the American culture, meeting new people from different countries and making new friends, through these clubs and organizations.
+   </p>
+   </div>
+   <button class="accordion">Why study in Canada?</button>
+   <div class="panel">
+   <p>Every year, Canada welcomes hundreds of thousands of international students from around the globe. When you study in Canada, you invest in your future. Hosting nearly half a million international students, Canada is known to offer high quality education at affordable tuition fee with degrees that are globally recognised. Add to it, an excellent quality of life, immense post-study work and immigration opportunities, Canada stands out as a popular country to study among Indian students.<br>
+       One of the most important reasons why students choose to study in Canada is because of the high quality of education. When a student receives a degree from a Canadian university, it acts as a mark of trust and excellence. <br>22 of Canada's universities rank in the QS World University Rankings 2023 and 31 of them are in the World University Rankings 2023. Tuition fee in Canada, when compared to universities in the US and UK, is fairly cheaper. And when considering the return on investment, it is quite a viable option for Indian students.<br>
+       In Canada, you’ll find extremely warm and welcoming people who come from varied ethnic groups with different cultures and lifestyle. The multicultural environment in Canada promotes friendliness and peaceful living like no other country. <br>At all Canadian campuses you can expect events, fests, and other activities being conducted all through the year. This creates a happy and lively environment for all the students, helps you network and meet new people besides keeping the homesickness away.
+   </p>
+   </div>
+   <button class="accordion">Why study in Australia?</button>
+   <div class="panel">
+   <p>Australia has been one of the most favoured study-abroad destinations among Indians and students from other countries like China, Nepal, Brazil, Malaysia, Vietnam, Thailand, and others. As per the United Nations, Australia is the second-best country because of its excellent quality of life index.<br> In terms of wealth, education, health, and quality of life, it is ranked as one of the best countries. Australia has top-ranked institutions, globally recognized qualifications, and an abundance of scholarships when it comes to education. Students from around the world are pursuing short-term English language courses, bachelor's & master's degrees, and doctoral degrees in Australia. The country now has over 384,000 international students from more than 140 countries. 
+       Studying in Australia or any other foreign country offers the experience of gaining a global perspective which develops cross-cultural skills, improves communication skills, builds networks, and an incredible standard of living.<br> Studying in Australia also enables students to secure their dream job in a reputed company which otherwise would not be easily possible. While the Indian education system emphasizes more on theoretical knowledge, the Australian education system focuses more on practical skills. The curriculum in India is revised after long durations, whereas education in Australia and other leading countries focuses on recent developments in a subject area.
+   </p>
+   </div>
+   
+   <button class="accordion">Why study in Singapore?</button>
+   <div class="panel">
+   <p>A city of skyscrapers, Singapore is fast emerging as Asia’s leading international study destination and is attracting students from all parts of the world, thanks to its reputation for being a centre of academic excellence, universities and institutions that are highly placed in all major global rankings and this country being the IT & Business hub of Asia.<br> Singapore ranks high on other crucial parameters such as student satisfaction and safety and affordability. Singapore’s status of being an economic powerhouse with excellent job opportunities across a diverse range of sectors complements its education system of international repute and makes this city country one of the most sought-after study destinations globally.
+       Singapore’s economy has been ranked as the most open and most pro-business economy in the world.<br> Top sectors driving Singapore’s economy include Information Technology, Pharmaceuticals, Biotechnology, Precision Engineering, Aerospace & Professional Services.<br> A lot of multinational companies such as Twitter, Dyson, Tencent, LinkedIn & Facebook have established their regional headquarters and global RnD laboratories in Singapore. Singapore is a prominent business hub of Asia owing to its connectivity, robust economy, and strong influence in the region. Singapore has also been ranked as the Asian city with highest quality of life by Mercer, world's leading human resource management consulting agency.
+   </p>
+   </div>
+   <button class="accordion">Why study in India?</button>
+   <div class="panel">
+   <p>With more than 500 accredited universities, India is at the forefront of the most rapidly developing sectors in today’s global economy, making it an ideal place to earn a world class education. What’s more, while living and learning in India, international students will experience one of the oldest and richest cultures in the world. As the most populous democratic country in the world, India embodies and embraces diversity and multiculturalism. <br>With more than 22 languages and 6 religions, India welcomes international students to experience the unique sights, sounds, and flavours of its different states and regions. India's education system plays a leading role in the fields of business management, finance, healthcare, and information technology. Students educated at Indian universities are leaving their mark on a global scale with their astute leadership skills. High quality instruction with increased affordability offers international students a high return on their investment in education.<br>
+       In addition to a strong curriculum, India’s educational institutions comprise a robust infrastructure that enables students to gain practical experience in their chosen career fields.<br>Opportunities in India for research, internships, and careers with multinational companies make a conducive environment for professional development during and after studies.
+       Universities in India have hosted international students for more than 50 years and are equipped to provide high quality resources and a safe, supportive environment.<br> Most of the large institutions have an established International Student Office and are fully capable of supporting international students from varied ethnic, cultural, and educational backgrounds. Studying in an Indian institution enables students to face the challenges of a global market while enjoying life in a vibrant environment full of rich customs and traditions.
+   </p>
+   </div>
+   <button class="accordion">Why study in France?</button>
+   <div class="panel">
+   <p>The Universities in France are some of the most renowned Universities in world. 35 of the Universities in France appear among the top Universities in the world by various entities. Apart from its pioneer image in art and music, there are many other fields of study in France to explore for international students.<br>
+       One thing constant among them all, is the international standards of education.<br> Wherever you are, Paris (University of Paris - Sorbonne, Ecole Polytechnique), Lyon, Toulouse, Grenoble (University of Grenoble) or the Bordeaux, the universities are the best. France has more than 3,500 higher education institutions. This means you have an unlimited choice of locations, schools, and courses. Apart from bachelors and master’s course, there is plenty of many unique options of short-term courses as well. The options are endless. Funding is provided to many understudies by French Ministry of Foreign and European Affairs and there are 3500 public and private organizations which offer phenomenal projects and training.<br>
+       You will get an opportunity to learn French, which is the official language of over 30 countries. You can get connected with French classmates and neighbours, make new friends, you will surely learn French. You can also even opt French learning courses with your academic course.
+       <br>An international student has the right to work while studying in France. French law gives the right to international students to work part-time for 964 hours during the year which is equivalent to 60% of the legal work year. The minimum wage rule is for all the working students. You can earn around €7900 per annum.
+   </p>
+   </div>
+   <button class="accordion">Why study in Ireland?</button>
+   <div class="panel">
+   <p>Ireland is one of the world’s most stunning islands. Ireland is a country with a long history and a rich culture. Ireland is among the most English-speaking countries in Europe, with a strong educational and industrial reputation, not to forget its close proximity to Europe. Ireland is home to the most reputed universities across the globe. Fast forward to the modern era, it has essentially evolved into an enterprising nation with a global reputation for research excellence.
+      <br> Ireland’s higher educational standards are based on the country’s dedication to excellence. The Irish government has made significant investments in the country’s academic infrastructure, making it a popular study destination around the world. Furthermore, the country’s higher educational institutions award internationally recognized and quality-assured certifications and qualifications, with over 5000 programs available to students from all over the world. It also serves as the headquarters for major corporations such as Google, Microsoft, DELL, and others. 
+       Ireland is home to numerous top-ranked universities around the world, and it is known for its intellectual prowess and providing high-quality education.<br> Top universities like Trinity College Dublin, University College Dublin, University College Cork, Royal College of Surgeons in Ireland, National University of Ireland Galway, Maynooth University, University of Limerick, Dublin City University, and the Technological University of Dublin.
+   </p>
+   </div>  
+   <button class="accordion">Why study in Norway?</button>
+   <div class="panel">
+   <p>
+       The student life in Norway is one of the most enjoyable and enriching in the world. The cities are trendy, and the natural scenery is breath-taking. Whether you study in the city or out in the country, you will discover a friendly community with good living circumstances and fascinating work prospects to put your new talents to the test. And, best of all, the majority of Norway’s higher education is free.
+       <br>Norway offers a one-of-a-kind educational experience, and Norwegian universities welcome applications from eligible students from all over the world. In many sectors of Norwegian education, globalisation is a top emphasis. Norway is regarded as one of the best countries in the world in terms of wealth, education, health, and security. In this beautiful country, the standard of life is fairly good. Supporting international students as they acclimate to a new culture and environment is a major priority for Norwegian colleges. In telecommunications, shipping, oil and gas, high-tech products, and fish farming, Norway is the world leader. there are already over 25,000 international students in the Northern European country. Norway has a lot to offer international students, whether they want to pursue an exchange, a year abroad, or a full undergraduate or postgraduate degree.
+   </p>
+   </div>
+   <button class="accordion">Why study in Germany?</button>
+   <div class="panel">
+   <p>
+       Germany is a higher education paradise. Unlike in any other country, in Germany you will find many worldwide ranked universities, countless courses to choose from, globally valued degrees that promise high employability to you and affordable living costs.<br>
+       Moreover, Germany has a long and rich history, a vibrant and dynamic lifestyle mixing the modern and the classics, the urban and the rural which will immerse and make you love every second spent here. Not surprisingly, Germany is ranked among the world’s top destinations for international students.<br>According to the latest official statistics, there are over 357,000 foreign students seeking a university degree in Germany whereas the number is steadily increasing.
+      <br>Every year, thousands of scholars coming from all around the world trust their education to German universities and the reasons for this are obvious. Based on official recordings in 2018, there are 429 public higher education institutions functioning in Germany among which 106 are universities. German universities are above global higher education standards. Some of them have been consistently ranked among the world’s best universities. Students value these universities for the quality of education, hands-on experiences during their studies, opportunities to improve academically during and after studies and most importantly the safe and friendly environment.
+   </p>
+   </div>
+   <button class="accordion">Why study in Spain?</button>
+   <div class="panel">
+   <p>Every year thousands of students from across the world make their way to Spain to attend one of the 76 universities located in the country. They come to the country for numerous reasons, with the knowledge that studying here is a truly enlightening experience. Spain offers its international students the opportunity to create new attitudes and concepts about life. It gives students a fresh perspective on the world around them.
+       <br>Spain is rich in history and culture, and as so, it provides the complete package for anyone coming to the area from international lands. While quality education is among the main reasons why international students should study in Spain, you will be able to find plenty of other complementary factors that add up to the experience.
+       <br>Spain has a great opportunity to learn no matter what your major might be and no matter which university you wish to attend. The educational system is well organized and properly executed, designed to provide students of all levels with utmost learning opportunities. Spain is the third most popular country for international studies, and this country is, in fact, among top choices for international students from the U.S., along with the UK, Italy, and France. Spain has its fair share of affordable cities to live in and, generally, a comparatively affordable cost of living, especially compared to numerous European capitals. Cost of living and attending university in Spain depends on numerous factors. Spain places a lot of importance on preparing students for real-life experiences, and its higher education system reflects this commitment.
+   </p>
+   </div>
+</div>
+
+   
+
+<!-- start Footer -->
+<footer>
+  <div class="main-footer">
+  <!-- footerup-1 -->
+    <div class="footerup-1">
+      <h4 class="title">Voltaire</h4>
+      <P><strong>Voltaire</strong> is a study abroad education consultancy with an online platform that allows students to apply to universities. We specializes in course advice, IELTS prep, pre-departure support, visa, accommodation, and health cover for students.<br><br> To avail of our services, you can register on our website. You will be assigned a counselor to help you through your study abroad journey.</P>
+    </div>
+  <!-- footerup-2 -->
+    <div class="footerup-2">
+      <h4 class="title">Quick Links</h4>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/aboutus">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/appointment">Appoinments Booking</a></li>
+          <li><a href="/destination">Study Destinations</a></li>
+          <li><a href="/universities">Universities</a></li>
+          <li><a href="/scholarship">Scholarships</a></li>
+        </ul>
+    </div>
+  <!-- footerup-3 -->
+  <div class="footerup-3">
+    <h4 class="title">CONTACT US</h4>
+      <p><strong>Voltaire Education Consultancy,</strong><br>
+        Commercial Block-1, Zone 6,<br>
+        Golf Course Road,<br>
+        DLF City Phase-V,<br>
+        Gurugram - 122009<br>
+        Haryana, India<br>
+        Phone: (+91) 9866403266<br>
+        <a href="https://mail.google.com/" target="_blank">info@voltaire.in</a></p>
+  </div>
+  <!-- footerup-4 -->
+    <div class="footerup-4">
+      <h4 class="title">DON'T MISS OUT ON THE LATEST</h4>
+      <form action="#" method="post">
+        {% csrf_token %}
+        <input id="test" type="email" placeholder="Your email address..." required>
+        &nbsp;
+        <button id="subscribe" onclick = "execute_function()" type="submit">SUBSCRIBE!</button>
+      </form>
+      <ul>
+        <li><a href="https://www.facebook.com/VoltBiz" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/voltaquino?lang=en" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/voltaireconsultants/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/company/voltaireconsultants/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>     
+      </ul>
+    </div>
+  </div></footer><hr>
+<!-- Footerdown -->
+  <div class="footerdown"> 
+    <p>Copyright © 2023 Voltaire Overseas Consultancy. All rights reserved. Published by Alpha Brand Media.</p>
+  </div>
+</footer>
+
+
+<script>
+
+
+
+
+//  Start header photo
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+
+
+
+// Start Why question
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+
+// start Subscribe button
+function execute_function(){
+  if(document.getElementById("test").value.trim() != "") alert("Your Email has been registered!!!")
+  else alert("Error: Please enter email")
+  }
+
+
+
+// start scroll to top button
+let mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+      
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+    }
+}   // When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  }
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,396 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+html{ 
+	scroll-behavior: smooth;
+	}
+body{
+	color:black;
+	
+}
+/* Start Go to top button */
+#myBtn {
+	background-image: url(top-arrow.svg);
+	background-position: center 50%;
+	background-repeat: no-repeat;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: rgb(243, 139, 139);
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 50%;
+	transition: 0.3s ease-in-out;
+  }
+#myBtn:hover {
+	background-color: #adabab;
+  }
+/* Start Navigation Bar */
+.navigation{
+  	position: fixed;
+ 	width: 100%;
+	top: 0;
+ 	overflow:hidden;
+ 	z-index: 2;
+	
+}
+.navigation-1{
+	width:100%;
+	height:40px;
+	background-color:#2a5d84;
+	border-bottom-style: solid;
+    border-bottom-color: #4e9ad0;
+    border-bottom-width: 5px;
+}
+.navigation-1 ul{
+	float: right;
+	margin-right: 20px;
+	font-size: 20px;
+}
+.navigation-1 ul li{
+	display: inline;
+	padding: 20px;
+	text-decoration: none;
+	color: whitesmoke;
+}
+.navigation-1 ul li a:hover{
+	color:  #2a5d84 ;
+}
+/* Navigation-1_sign*/
+.sign{
+	float: right;
+	color: rgb(72, 44, 3);	
+}
+.sign ul li{
+	margin-right: 20px;
+	display:inline;
+}
+#title{
+	margin-right: 100px;
+}
+/* Search Bar */
+.sign ul li #search-bar{
+	background:rgba(245, 245, 245, 0.819);
+	color: black;
+	font-size: 15px;
+	border: none;
+	height: 28px;
+	width: 230px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.sign ul li #search-button {
+	background: transparent;
+	color: whitesmoke;
+	height: 30px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	transition: .1s ease-in-out;
+}
+.sign ul li #search-button:hover{
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
+}
+/* Start register link */
+.sign ul li a{
+	text-decoration: none;
+	color:whitesmoke ;
+}
+.sign ul li a:hover{
+	color: #4e9ad0;	
+}
+/* Navigation-2 */
+.navigation-2{
+	width:100%;
+	height:80px;
+	background-color:white;
+	text-align:center;
+	display: flex;
+    align-items: center;
+}
+#logo{
+	float: left;
+	height:80px;
+ /* margin-left: 20px; */
+}
+.navigation-2 ul{
+	list-style-type: none;
+	line-height: 50px;
+}
+.navigation-2 ul li{
+	display: inline;
+	text-transform: capitalize;
+}
+.navigation-2 ul li a{
+	color: black;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 10px 20px;
+	text-decoration:none;
+	transition: 0.3s ease-in;
+}
+.navigation-2 ul li a:hover{
+	color: whitesmoke;
+	background-color:#0255bc;
+}
+/* Navigation-1_logo(twitter....*/
+.logo ul {
+	margin-right: 50px;
+}
+
+
+/* Start appointment page */
+#container{
+	background-color: whitesmoke;
+	padding: 50px 30px 30px 30px;
+	width: 40%;
+	margin-top: 150px;
+	margin-left: 30%;
+}
+#container h1{
+	color: black;
+	margin-bottom: 30px;	
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+/* input[type="search"], */
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: auto;
+  outline: 0;
+  padding: 8px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  text-overflow: ellipsis;
+}
+
+#search-bar {
+	margin-bottom: 0px;
+}
+
+input[type="radio"],
+input[type="checkbox"]
+{
+  margin: 8px 0 16px 12px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+#request {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4e9ad0;
+  font-size: 18px;
+  margin-left: 17%;
+  font-style: normal;
+  border-radius: 10px;
+  width: 65%;
+  border: 1px solid #225071;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #225071;
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #4e9ad0;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*main footer*/
+.main-footer{
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+	background-color:#333333;
+	color: #9b9b99;
+	display: flex;
+	margin-top: 5%;
+}
+	/* footer title */
+.title{
+	
+	font-size:19px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	color: white;	
+}
+	/* footerup-1 */
+.footerup-1 {
+	flex-basis: 30%;
+	margin-left: 3% ;
+	margin-right: 2% ;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.footerup-1 p{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+	/* footerup-2 */
+.footerup-2 {
+	flex-basis: 15%;
+	margin-left: 3% ;
+	margin-right: 1% ;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.footerup-2 ul li{
+	list-style: none;
+	margin-bottom: 6px;
+	font-size: 18px;
+}
+.footerup-2 ul li a{
+	text-decoration: none;
+	
+	color:#9b9b99;
+}
+.footerup-2 ul li a:hover{
+	padding-left:8px;
+	color: white;
+	font-weight: bolder;
+	transition: 0.4s ease-out;
+}
+	/* footerup-3 */
+.footerup-3{
+	flex-basis: 20%;
+	margin-right: 1% ;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.footerup-3 a{
+	text-decoration: none;
+	color: #9b9b99;
+}
+.footerup-3 a:hover{
+	font-weight: bold;
+	color: white;
+	transition: 0.2s ease-out;
+}
+.footerup-3 ion-icon{
+	color: white;
+}
+	/* footerup-4 */
+.footerup-4 { 
+	flex-basis: 25%;
+	margin-left: 2% ;
+	margin-right: 4% ;
+	margin-top:20px;
+	margin-bottom: 20px;
+} 
+.footerup-4 form{
+	margin-top:10%;
+}
+.footerup-4 ul{
+	margin-top: 60px;
+	margin-left: 20px;
+}
+.footerup-4 ul li{
+	list-style: none;	
+	font-size: 25px;
+	margin-right: 40px ;
+	display: inline;
+	color: white;
+
+}
+.footerup-4 ul li a:hover{
+	color: white;
+	font-size: 40px;	
+	transition: 0.5s ease-in-out;
+
+}
+#test{
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	height: 33px;
+	width: 230px;
+}
+#subscribe{
+	background-color: red;
+	color: white;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 8px 8px 8px 8px ;
+	cursor:pointer;
+	overflow: hidden;
+}
+
+	/* Footerdown */
+.footerdown{
+	background-color:#333333;
+	color:#9b9b99;
+	text-align: center;
+}
+.footerdown p{
+	padding: 5px;
+}
+

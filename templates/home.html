@@ -1,0 +1,330 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltaire:Online educatoin consultancy-Home Page</title>
+    
+    <link rel="Stylesheet" href="{% static 'CSS/home.css' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'img/logo-icon.jpg' %}"> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<div class="navigation">
+<!-- Start Navigation-1 -->
+  <nav class="navigation-1">
+    <div class="sign">
+      <ul>
+        <li id="title">Voltaire: Overseas Education Consultancy</li>
+        <li><input id="search-bar" type="text" placeholder="Search.." name="search">
+           <button id="search-button" type="submit"><ion-icon name="search-outline"></ion-icon></button></li>
+           <li style="margin-right: -10px;">| <a href="/register" target="_blank">Register</a></li>
+           <li><a href="/login" target="_blank">Log In</a></li>
+        </ul>
+    </div>
+  </nav>
+<!-- start Navigation 2-->
+  <nav class="navigation-2">
+    <a href="/home">
+      <img src="{% static 'img/logo5.jpg' %}" id="logo" ><br>
+    </a>
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/aboutus">About Us</a></li>
+      <li><a href="/services">Our Services</a></li>
+      <li><a href="/destination">Study Destinations</a></li>
+      <li><a href="/universities">Universities</a></li>
+      <li><a href="/scholarship">Scholarships</a></li>
+      <li><a href="/test">Test Prep</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Start GO to top -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"></button>
+
+
+
+<!-- Startheader-photo -->
+<div class="slideshow-container" style="text-align: center;">
+  <div class="mySlides">
+    <img id="header-photo" src="{% static 'img/Picture1.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture2.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture3.jpg' %}">
+  </div>
+
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture4.jpg' %}">
+  </div>
+        
+  <div class="mySlides ">
+    <img id="header-photo" src="{% static 'img/Picture5.jpg' %}">
+  </div>
+</div><br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+</div><br>
+
+
+
+
+
+<!--Start Our Section -->
+<div class="our">
+  <div class="our_approach">
+  <h1>Our Approach </h1>
+  <div class="intro">
+  <p>Each institution we work with is unique. Depending on your goals, we can offer you one distinct service or design a custom bundle of services. We tailor the approach or mix of approaches best suited to your future goals.</p> 
+  </div>
+    <img src="{% static 'img/approach.jpg' %}">
+  </div>
+
+  <div class="our_impact">
+    <h1>Our Impact </h1>
+    <div class="intro">
+      <p>Based on the approach you choose, we work with individual faculty to department heads to top-level university leaders. Whatever your path, our goal is to meet the needs of yours administors, faculty, and students.</p>
+    </div>
+    <div class="photo">
+      <img src="{% static 'img/impact.jpg' %}">
+    </div>
+  </div>
+
+  <div class="our_strength">
+      <h1>Our Strength</h1>
+  <img src="{% static 'img/strength.jpg' %}">
+</div>
+</div>
+
+
+
+
+
+<!-- Start Slogan poster -->
+<div class="slogan">
+  <p>Asipre to Study OverSeas?<br>Find the right path with Voltaire</p>
+</div>
+
+
+
+
+<!-- Start Timeline -->
+
+<div class="timeline">
+  <h1 class>How to get Started?</h1>
+  <div class="container left">
+    <div class="content">
+      <h3>Request an appointment</h3>
+      <p>"Book an appointment through our website. you can fill one of our forms or click on "Book and Appointment"</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>Meeting</h3>
+      <p>Attend the meeting at one of our offices or virtual rooms through Zoom or even a telephone call. Prepare all your Questions. You would get full information about our programs from the consultant.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Contract</h2>
+      <p>After you agree on a course in a desired destination, you would sign a contact. In contract all responsibilities of all parties are mentioned.After the contract is signed we can proceed with your application.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Enrolment</h2>
+      <p>All your Qualifications and required documents are assessed and translated and forwarded to the institute. If all pre requireements are met then a letter of offer is sent. The client should pay the fees and then a letter of acceptance is sent by the institute.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Visa</h2>
+      <p>Visa application would be done by our visa specialists. All supporting document would be assessed and attached to the visa application.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Departure and Arrival of Packages</h2>
+      <p>When the Visa is issued, we would prepare the appliciant for departure to the desired country.One  of our consultants would meet the client at destination country to help with registration and settle down.</p>
+    </div>
+  </div>
+</div><br>
+
+
+
+
+
+
+
+
+
+<!-- Section Cards -->
+<div class="section">
+<div class="section-row">
+  <div class="section-column">
+    <div class="section-card">
+      <h1>2500+</h1>
+      <p>Successful Admissions</p>
+    </div>
+  </div>
+
+  <div class="section-column">
+    <div class="section-card">
+      <h1>1000+</h1>
+      <p>Satisfied Customers</p>    
+    </div>
+  </div>
+  
+  <div class="section-column">
+    <div class="section-card">
+      <h1>800+</h1>
+      <p>Scholarships Granted</p>
+    </div>
+  </div>
+  
+  <div class="section-column">
+    <div class="section-card">
+      <h1>250+</h1>
+      <p>University Patnerships</p>
+    </div>
+  </div>
+
+  <div class="section-column">
+    <div class="section-card">
+      <h1>5+</h1>
+      <p>Years experience</p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<!-- start Footer -->
+<footer>
+  <div class="main-footer">
+  <!-- footerup-1 -->
+    <div class="footerup-1">
+      <h4 class="title">Voltaire</h4>
+      <P><strong>Voltaire</strong> is a study abroad education consultancy with an online platform that allows students to apply to universities. We specializes in course advice, IELTS prep, pre-departure support, visa, accommodation, and health cover for students.<br><br> To avail of our services, you can register on our website. You will be assigned a counselor to help you through your study abroad journey.</P>
+    </div>
+  <!-- footerup-2 -->
+    <div class="footerup-2">
+      <h4 class="title">Quick Links</h4>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/aboutus">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/appointment">Appoinments Booking</a></li>
+          <li><a href="/destination">Study Destinations</a></li>
+          <li><a href="/universities">Universities</a></li>
+          <li><a href="/scholarship">Scholarships</a></li>
+        </ul>
+    </div>
+  <!-- footerup-3 -->
+  <div class="footerup-3">
+    <h4 class="title">CONTACT US</h4>
+      <p><strong>Voltaire Education Consultancy,</strong><br>
+        Commercial Block-1, Zone 6,<br>
+        Golf Course Road,<br>
+        DLF City Phase-V,<br>
+        Gurugram - 122009<br>
+        Haryana, India<br>
+        Phone: (+91) 9866403266<br>
+        <a href="https://mail.google.com/" target="_blank">info@voltaire.in</a></p>
+  </div>
+  <!-- footerup-4 -->
+    <div class="footerup-4">
+      <h4 class="title">DON'T MISS OUT ON THE LATEST</h4>
+      <form action="#" method="post">
+        {% csrf_token %}
+        <input id="test" type="email" placeholder="Your email address..." required>
+        &nbsp;
+        <button id="subscribe" onclick = "execute_function()" type="submit">SUBSCRIBE!</button>
+      </form>
+      <ul>
+        <li><a href="https://www.facebook.com/VoltBiz" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/voltaquino?lang=en" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/voltaireconsultants/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/company/voltaireconsultants/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>     
+      </ul>
+    </div>
+  </div></footer><hr>
+<!-- Footerdown -->
+  <div class="footerdown"> 
+    <p>Copyright © 2023 Voltaire Overseas Consultancy. All rights reserved. Published by Alpha Brand Media.</p>
+  </div>
+</footer>
+
+<script>
+
+//  Start header photo
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+
+
+
+// start Subscribe button
+function execute_function(){
+  if(document.getElementById("test").value.trim() != "") alert("Your Email has been registered!!!")
+  else alert("Error: Please enter email")
+  }
+
+
+
+// start scroll to top button
+let mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+      
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+    }
+}   // When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  }
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
